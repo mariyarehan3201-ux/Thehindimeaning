@@ -1,0 +1,72 @@
+# ==============================================================
+# TheHindiMeaning.in Robots.txt
+# Standard Search Engine Crawlers: FULLY ALLOWED
+# AI Data Harvesters & Model Training Crawlers: DISALLOWED
+# ==============================================================
+
+# --------------------------------------------------------------
+# 1. Search Engine Crawlers (Explicitly Allowed for Full Indexing)
+# --------------------------------------------------------------
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-News
+User-agent: Bingbot
+User-agent: msnbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: YandexBot
+User-agent: Applebot
+Allow: /
+
+# --------------------------------------------------------------
+# 2. AI Model Training Crawlers & Scrapers (Disallowed)
+# --------------------------------------------------------------
+# OpenAI Training Scrapers
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Disallow: /
+
+# ByteDance / TikTok AI Scraper (Aggressive Cloud Datacenter Bot)
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl (Mass Training Dataset Collector)
+User-agent: CCBot
+Disallow: /
+
+# Anthropic / Claude Training Crawlers
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+Disallow: /
+
+# Google Gemini / Vertex AI Training Token (Does NOT affect Google Search Indexing)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple Intelligence Training Token (Does NOT affect Siri / Spotlight Search)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta / Facebook AI Training Crawlers
+User-agent: FacebookBot
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Other Commercial AI Scraping Engines
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: PerplexityBot
+User-agent: Omgilibot
+Disallow: /
+
+# --------------------------------------------------------------
+# 3. Default Rule for All Other Crawlers & Browsers
+# --------------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /private/
+
+# Sitemap Location
+Sitemap: https://thehindimeaning.in/sitemap.xml

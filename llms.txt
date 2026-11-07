@@ -1,0 +1,15 @@
+# The Hindi Meaning
+
+> TheHindiMeaning.in is a comprehensive multilingual educational reference portal providing accurate word meanings in Hindi, Tamil, and Telugu, official full form expansions across technical, medical, and governmental fields, and practical step-by-step informational guides.
+
+## Main Content Sections
+
+- [Full Forms](https://thehindimeaning.in/category/full-form/): Detailed explanations, historical origins, and technical specifications of thousands of abbreviations across medicine, engineering, aviation, civil services, and law.
+- [Word Meanings](https://thehindimeaning.in/category/meaning/): Multilingual translations, sentence usage, synonyms, antonyms, and linguistic context in Hindi (हिंदी), Tamil (தமிழ்), and Telugu (తెలుగు).
+- [Informational Guides](https://thehindimeaning.in/category/informational/): Practical tutorials, eligibility criteria, exam preparation blueprints, and career pathways.
+- [Question & Answer (Q&A)](https://thehindimeaning.in/category/qna/): Clear, concise answers to frequently asked academic, technical, and general knowledge questions.
+
+## Sitemaps and Technical Feeds
+
+- [Rolling RSS Feed](https://thehindimeaning.in/rss.xml): Real-time XML syndication feed featuring the latest 300 published educational articles with Google WebSub (PubSubHubbub) support.
+- [Sitemap Index](https://thehindimeaning.in/sitemap.xml): Complete XML sitemap listing all published articles, category portals, and static resources.

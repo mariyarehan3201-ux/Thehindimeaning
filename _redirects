@@ -1,0 +1,24 @@
+# Cloudflare Pages Static Redirect Rules
+/rss /rss.xml 301
+/feed /rss.xml 301
+/feed.xml /rss.xml 301
+
+# Common Aliases
+/about-us /about/ 301
+/about-us/ /about/ 301
+
+# Legacy Categories
+/informational /category/informational/ 301
+/informational/ /category/informational/ 301
+/meaning /category/meaning/ 301
+/meaning/ /category/meaning/ 301
+/full-form /category/full-form/ 301
+/full-form/ /category/full-form/ 301
+/qna /category/qna/ 301
+/qna/ /category/qna/ 301
+/health /category/informational/ 301
+/health/ /category/informational/ 301
+
+# WordPress legacy tag & author archives (HTTP 410 Gone)
+/tag/* / 410
+/author/* / 410
